@@ -31,7 +31,7 @@ return {
    dependencies = { "nvim-tree/nvim-web-devicons" },
    config = function()
      -- calling `setup` is optional for customization
-     require("fzf-lua").setup({})
+     require('config/fzf-lua')
    end
   },
   {
@@ -40,7 +40,7 @@ return {
     ---@type oil.SetupOpts
     opts = {},
     -- Optional dependencies
-    dependencies = { "nvim-tree/nvim-web-devicons" }, 
+    dependencies = { "nvim-tree/nvim-web-devicons" },
     config = function()
       -- calling `setup` is optional for customization
       require("config/oil")
