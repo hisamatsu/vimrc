@@ -66,7 +66,7 @@ vim.o.encoding = 'utf-8'
 vim.scriptencoding = 'utf-8'
 
 -- visual
-vim.o.ambiwidth = 'double'
+vim.o.ambiwidth = 'single'
 vim.o.tabstop = 2
 vim.o.softtabstop = 2
 vim.o.shiftwidth = 2
