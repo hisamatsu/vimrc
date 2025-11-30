@@ -60,6 +60,8 @@
 -- nmap <C-n> <Plug>AirlineSelectNextTab
 
 
+vim.o.textwidth = 80
+vim.opt.formatoptions:append("mM")
 
 -- encoding
 vim.o.encoding = 'utf-8'

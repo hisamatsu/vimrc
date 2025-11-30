@@ -112,5 +112,14 @@ return {
       -- More details: https://github.com/mikavilpas/yazi.nvim/issues/802
       vim.g.loaded_netrwPlugin = 1
     end,
+  },
+  {
+    "vim-jp/autofmt",
+    event = { "BufReadPost", "BufNewFile" },  -- 遅延読み込み（ファイル読み込み後など）
+    -- 必要なら設定も書く
+    config = function()
+      -- 例: 自動でフォーマットする設定など
+      -- ここには autofmt 特有の設定があれば書きます
+    end
   }
 }
